@@ -1,80 +1,62 @@
 <!DOCTYPE html>
-<html lang="Nl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</Form></title>
+    <title>Oopdracht 3.2</title>
 </head>
 <body>
-    <form action="reactie.html" type="Get"
-       <div>
-        <legend>gegevens:</legend><br>
-        <label for="voornaam">voornaam:</label>
-        <input type="text" name="voornaam" id="name"> <br>
-        </div>
-        <div>
-            <label for="achternaam">achternaam:</label>
-            <input type="text" name="achternaam" 
-        </div> <br>
-       
-       
-        <div>
-            <legend>geslacht:</legend> 
-            <label for="vrouw">vrouw
-            <input type="radio" name="geslacht" id="vrouw"
-            <label for="man">man
-            <input type="radio" name="geslacht" id="Man" 
-        </div>
+    <form name="reactieformulier">
+        <label for="Vnaam">Voornaam:</label><br>
+        <input type="text" id="vnaam" name="voornaam" pattern="[^0-9]*">  
+        <br>
+        <label for="Anaam">Achternaam:</label><br>
+        <input type="text" id="Anaam" name="Achternaam" pattern="[^0-9]*">  
+        <br>
+        <label for="gender">Geslacht:</label><br>
+        <input type="radio" id="man" name="gender" value="man" checked>
+        <label for="man">Man</label><br>
+        <input type="radio" id="vrouw" name="gender" value="vrouw">
+        <label for="vrouw">Vrouw</label><br><br>
+        <label for="sens" id="sens" name="snes" value="sens">Straat en huisnummer:<br></label>
+            <input type="text" id="sens" name="sens" value=""><br><br>
+            <label for="postcode" id="pc" name="postcode" value="PC">Postcode:</label><br>
+        
+            <input type="text" id="pc" name="postcode" value=""><br><br>
+            <label for="stad" id="stad" name="stad" value="">Stad:</label><br>
+        
+            <input type="text" id="stad" name="stad" value=""><br><br>
+            <label for="land" id="land" name="land" value="">Land:</label><br>
+        
+            <input type="text" id="land" name="land" value=""><br><br>
+            <label for="BSN" id="BSN" name="BSN" value="">BSN nummer:</label><br>
+            <input type=number id="BSN" name="BSN"><br><br>
+            <label for="VL" id="VL" name="VL">Vakantieland:</label><br>
+            <select>
+                <option value="Spanje" id="Frankrijk">Frankrijk</option>
+                <Option value="Italie" id="italie">Italie</Option>
+                <option value="Griekenland" id="Polen">Polen</option>
+                <option value="Duitsland" id="Amerika">Amerika</option>
+            </select><br><br><br>
+            <br. <br>
+            <label for="VD" id="VD">Vertrekdatum:</label><br>
+            <input type="date" id="VD" name="VD" min="2022-09-09"><br><br>
+            <label for="AD" id="AD">Aankomstdatum:</label><br>
+            <input type="date" id="AD" name="AD"<br><br><br>
+            <label for="RG" id="RG">Aantal reisgenoten:</label><br>
+            <input type="number" id="RG" name="RG" min="0" max="4"><br><br>
+            <input type="submit" id="sub" name="sub"value="BOEK NU"<br>
+            <br>
+            <br>
+            <label for="email" id="email">Email adress:</label><br>
+            <input type="text" id="email"><br><br>
+            <label for="pass" id="pass">Wachtwoord:</label><br>
+            <input type="password" id="Pass">
 
-        <div>
-            <legend>adresgegevens:</legend> 
-            <label for="straat met huisnummer">straat met huisnummer
-            <input type="text" name="straat met huisnummer"
-            <label for="poscode">postcode
-            <input type="text" name="postcode"
-            <label for="stad">stad
-            <input type="text" name="stad"    
-            <label for= land>land
-            <input type="text" name="land"  
-        </div> <br>
-
-        <div>
-            <label for=" BSN-nummer">BSN-nummer
-            <input type="text" name="BSN-nummer"    
-        </div>
-        <div>
-        <legend>vakantieland:</legend>
-        <label for="Netherland">Netherland
-        <input type="checkbox" nema="Netherland" id="Netherland"
-        <label for="griekenland">griekenland
-        <input type="checkbox" name="griekenland" id="griekenland"  
-        <label for="spanje">spanje
-        <input type="checkbox" name="spanje" id="spanje"
-        <label for="duitsland">duitsland
-        <input type="checkbox" name="duisland" id="duisland" 
-        </div> 
-         <div>
-          <labe for="datum van vertrek">datum van ertrek
-          <input type="date" name="datum van vertrek"
-        </div>
-        <div>
-           <label for="datum van terugkomst"> datum van terugkomst
-            <input type="date" name="datum van terugkomst"
-        </div>
-        <div>
-            <label for="aantal reisgenoten"> aantal reisgenoten
-            <input type="number" name="aantal reisgenoten"    
-        </div>
-        <div>
-            <label for="E-mail"> E-mail
-            <input type="email" name="E-mail" placeholder="vul uw email in"
-        </div> 
-        <div>
-            <label for="wachtwoord">wachtwoord  
-            <input type="password" name="wachtwoord"   
-        </div>
-
+ 
+        
     
+        </form>
 </body>
 </html>
