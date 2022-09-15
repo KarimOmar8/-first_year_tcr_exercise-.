@@ -1,9 +1,10 @@
+
 h1 {
     font-size: 24px;
-    color:blue;
+    color:rgba(191, 236, 9, 0.66);
     font-weight: bold;
     font-style: italic;
-
+    
 }
 
 p {font-weight: bold;}
@@ -12,6 +13,7 @@ h2 {
     font-size: 20px;
     color:  #0000ff;
     font-weight: bold;
+    
 }
 
 h3 {
@@ -21,9 +23,53 @@ h3 {
 }
 
 p {
-    color:#4D4D4D;
+    color:white;
 }
 
 a {
     color: #8A2BE2;
     text-decoration: none;}
+
+    body {margin: 0;
+    font-family: system-ui;
+    }
+ 
+ 
+    body {
+        background-image: url("../img/img5.jpg");
+        background-color: #e9e0e0;
+        color: white;
+        padding: 200px 200px;
+        margin: 100px auto;
+
+        background-blend-mode: multiply;
+        background-size:cover;
+        background-repeat: repeat-x;
+        background-position: center;
+        
+       }
+ 
+    p {
+        border-style: outset;
+        border-width: 3px;
+        border-color: silver;
+        border-radius: 10px;
+        border-spacing: 10px;
+        padding: 3px;
+        border-left: double;
+    }
+       
+    h1 {
+        border-style: dashed;
+        border-color: aliceblue;
+        border-left: double;
+    }
+ 
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+   p {
+    font-size: 1.5rem;
+   }
+
