@@ -1,32 +1,33 @@
 body {
+    left: 100px;
+    height: 100vh;
     background-image: url(../img/img6.png);
     background-size: cover;
     background-color: black;
-
+    background-repeat: repeat-x;
+    font-family:"goldman", cursive;
+    
+    
 }
 
 
-html {
-  
-    font-size: 62.5%;
-  }
-  body {
-  
 
-    font-family: "Goldman", cursive;
-  }
+  
   
   nav {
+    position: fixed;
     display: flex;
     width: 100%;
-    padding: 2rem;
+    padding: 0px;
     min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    
   }
+
    ul {
     display: flex;
     align-items: center;
@@ -52,7 +53,8 @@ html {
   
    
   h2 {
-    font-size: 20px;
+    text-align: center;
+    font-size: 60px;
     color:  #d7f60b;
     font-weight: bold;
     
@@ -60,17 +62,27 @@ html {
   
   p {
     color: white;
-    font-size: 18px;
+    font-size: 38px;
   }
+
+  
+ img {
+  float: left;
+  border: 1rem;
+  padding: 1rem;
+  margin: 10px;
+ }
    
   footer {
+    position: absolute;
     display: flex;
     width: 100%;
-    padding: 1rem;
+    padding: 5px;
     min-height: 5vh;
     align-items: center;
     flex-wrap: wrap;
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    padding-left: 75rem;
   }
