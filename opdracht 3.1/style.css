@@ -54,7 +54,7 @@ body {
    
   h2 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color:  #d7f60b;
     font-weight: bold;
     
@@ -62,7 +62,7 @@ body {
   
   p {
     color: white;
-    font-size: 38px;
+    font-size: 28px;
   }
 
   
@@ -84,5 +84,5 @@ body {
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
-    padding-left: 75rem;
+    padding-left: 35rem;
   }
