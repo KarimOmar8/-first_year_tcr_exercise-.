@@ -6,7 +6,6 @@ body {
     background-color: black;
     background-repeat: repeat-x;
     font-family:"goldman", cursive;
-    text-align: center;
     
     
 }
@@ -21,6 +20,7 @@ body {
     width: 100%;
     padding: 0px;
     min-height: 10vh;
+    align-items: center;
     flex-wrap: wrap;
     margin: auto;
     background: #00a8c7;
@@ -47,34 +47,36 @@ body {
 
 
   h1 {
+    color: blue;
     font-weight: bold;
-    font-size: medium;
+    font-size: 2rem;
+    font-weight: bold;
   }
   
    
   h2 {
-  
     text-align: center;
-    font-size: 50px;
-    color:  #d7f60b;
+    font-size: 20px;
+    color:  #0000ff;
     font-weight: bold;
-    padding-top: 2rem;z
     
     
   }
+    
+
   
   p {
     color: white;
     font-size: 28px;
-    
   }
 
   
  img {
   margin:auto;
-  border: 15px;
-  padding: 15px;
   float: left;
+  border: 20px;
+  padding: 20px
+  
  }
    
   footer {
@@ -88,8 +90,8 @@ body {
     margin: auto;
     background: #00a8c7;
     justify-content: space-between;
+    border: 1rem;
     padding-left: 75rem;
-    border-radius: 1rem;
   }
 
 
