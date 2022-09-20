@@ -35,15 +35,7 @@ header {
    height: 33%;
 }
 
-body {
-    background-image: url("./img/img9.jpg");
-    background-color: rgb(13, 12, 12);
-    background-repeat: repeat-x;
-    background-size: cover;
-    margin:auto;
-    
-    
-}
+
 img  {
     width:50%;
     font-size: 2rem;
