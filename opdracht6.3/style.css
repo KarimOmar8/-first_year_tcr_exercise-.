@@ -28,6 +28,7 @@ ul li {
 
 ul section {
  display: flex;
+ justify-content: center;
  
 }
 
