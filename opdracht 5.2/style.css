@@ -1,3 +1,4 @@
+
 .container {
   left: 100px;
   height: 100vh;
@@ -92,6 +93,8 @@ footer {
   display: inline-block;
 }
 .dropdown-content {
+  align-items: center;
+  justify-content: end;
   display: none;
   position: absolute;
   background-color: white;
@@ -100,6 +103,8 @@ footer {
   z-index: 1;
 }
 .dropdown-content a {
+  align-items: center;
+  justify-content: center;
   color: #00a8c7;
   padding: 12px 16px;
   text-decoration: none;
