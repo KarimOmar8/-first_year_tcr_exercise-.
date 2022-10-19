@@ -1,0 +1,328 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.backimg{
+  background-image: url(./opw10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.backimg1{
+  background-image: url(./web4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backimg2{
+  background-image: url(home1.png);
+  background-size: cover;
+   background-repeat: no-repeat;
+}
+.backimg3{
+  background-image: url(./web4.webp);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed;  
+}
+.backimg4{
+  background-image: url(./bege11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backimg5{
+  background-image: url(./can10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.backimg6{
+  background-image: url(./edu13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.backimg7{
+  background-image: url(./exam1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.backimg8{
+  background-image: url(ouder50.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.backimg9{
+  background-image: url(./karim1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+.backimg10{
+  background-image: url(./bryan1.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+}
+.bryan{
+  font-size: 2rem;
+  align-items: center;
+  padding: 50px;
+  margin: auto;
+}
+
+.navbar {
+  position:fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(56, 57, 12);
+  color: white;
+  width: 100vw;
+  top:0%  
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.navbar-links {
+  font-size: 1.2rem;
+  height: 100%;
+  
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-right: 15px;
+}
+
+.navbar-links li {
+  list-style: none;  
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.toggle-button {
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+.dropbtn {
+  font-size: 0.9rem;
+  padding-right: 10px;
+  color:white;
+  background-color:rgb(56, 57, 12) ;
+  text-transform: uppercase;
+  list-style: none;
+  align-items:flex-end;
+  padding-top: 19px;
+  border: none;
+  text-decoration:underline;  
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  font-size: 1rem;
+  display: none;
+  position: absolute;
+  background-color: rgb(147, 147, 10);
+  min-width: 120px;
+  box-shadow:rgb(56, 57, 12);
+  z-index: 1;
+}
+.dropdown-content a {
+  align-items: flex-start;
+  width: auto;
+  font-size: 15px;  
+  color:azure;
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  padding: 15px 30px;  
+}
+nav a:hover{
+  font-size: 1rem;
+  color:rgb(234, 255, 0);
+}
+body{
+background-position: center;
+background-size: cover;
+height: 100vh;
+}
+h2{
+  color: chocolate;
+}
+h3 {
+  font-size: 2.3rem;
+  color: rgb(176, 165, 7);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+ color:black;
+ font-size: 1.2rem;
+ display: flex;
+ align-items: center;
+}
+p1{
+  font-size: 1.8rem;
+  color: rgb(0, 0, 0);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+ 
+.logo img{
+  width: 100px;
+  float: left;
+  padding-left: 5%;
+}
+.img-style img{
+  margin: auto;
+  border: 15px;
+  padding: 15px;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+.img-info img{
+  border: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  float: right;
+  padding-bottom: 20px; 
+}
+.foto-info{
+  float: left;
+  padding: 10px;
+  margin: auto;
+}
+
+.img-info3{
+ float: right;
+ display: flex;
+ border: 10px;
+ padding: 10px;
+ height: 30vh;
+}
+
+.dropdown-content a:hover {background-color:rgb(155, 120, 120);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color:rgb(56, 57, 12);}
+
+
+@media screen and (max-width: 800px) {
+    .navbar {
+      display: flex;
+      position: relative;
+    }
+   
+    .toggle-button {
+        display: flex; 
+    }
+
+    .navbar-links {
+      font-size: 1.2rem;
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+      
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .dropbtn {
+      font-size: 8px;
+      padding: 5px;
+      color:white;
+      font-size:1rem;
+      background-color: rgba(0,0,0,0.2);
+      text-transform: uppercase;
+      list-style: none;
+    }
+    .dropdown {
+      border: none;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+      display: flex;
+      padding: 5px;
+    
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #fcfbfb;
+      min-width: 140px;
+      box-shadow: 0px 8px 16px 0px rgba(234, 223, 223, 0.2);
+      z-index: 1;
+      padding: 10px;
+    }
+    nav a:hover{
+      font-size: 1rem;
+      color:orange;
+      display: block;
+    }
+   
+    p{
+      font-size: 15px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h2{
+      color: darkorange;
+    }
+    
+    h3{
+      color:chocolate;
+    }
+     body{
+      background-size: cover;
+      background-attachment: fixed;
+      height: 100vh;
+    }
+    
+
+    }
+
