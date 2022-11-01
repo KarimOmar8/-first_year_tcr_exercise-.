@@ -1,0 +1,23 @@
+
+.footer {
+    display:flex;
+    height: 12vh;
+    width: 98vw;
+    color: white;
+    background-color:#131c27;
+    align-items: center;
+    margin-top: 100%;
+}
+.icons {
+    display: flex;
+    margin-left: 5rem;
+ }
+ .icon1, .icon2, .icon3 {
+    display: flex;
+    margin-left: 18rem;
+    height: 5vh;
+ }
+
+.footer h2 {
+    margin-left: 4rem; 
+}
